@@ -143,5 +143,5 @@ else
 fi
 
 print_message "Downloading GEMINI.md..."
-curl -o GEMINI.md https://raw.githubusercontent.com/Gfeuillen/adk-hackathon/main/GEMINI.md
+curl -o GEMINI.md https://raw.githubusercontent.com/jeffreydahan/adk-hackathon-main/main/GEMINI.md
 echo -e "\033[0;32mWelcome to the Hackathon! Your next step is to run the following command:\ncd agents-google-hackathon && gemini\033[0m"
