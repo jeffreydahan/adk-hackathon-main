@@ -1,0 +1,4 @@
+uv
+google-cloud-aiplatform
+google-auth
+agent-starter-pack
