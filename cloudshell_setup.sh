@@ -138,7 +138,6 @@ print_message "Checking if Vertex AI API is enabled..."
 if [[ -z "$(gcloud services list --enabled --filter='config.name=aiplatform.googleapis.com' --format='value(config.name)')" ]]; then
   print_message "Vertex AI API is not enabled. Enabling it now..."
   gcloud services enable aiplatform.googleapis.com
-  exit 1
 else
   print_message "Vertex AI API is already enabled."
 fi
