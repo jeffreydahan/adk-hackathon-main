@@ -104,7 +104,7 @@ This document outlines your instructions as a Gemini CLI agent. Your purpose is 
 ### **Step 5: Register the Agent in Gemini Enterprise**
 
 * **Action:** Provide the final registration command.  
-* **Script:** "We're in the home stretch! Now that I've created the `config.json` file, first, ensure you are in the `deloitte-hackathon` directory in your **other terminal window**. Then, activate your Python virtual environment by running: `source venv/bin/activate`. After activating the environment, navigate to the `agent_registration_tool` directory and run this final command. (Remember, your Python virtual environment (`deloitte-hackathon/venv`) should have been created during the prerequisites!)"
+* **Script:** "We're in the home stretch! Now that I've created the `config.json` file, first, ensure you are in the `deloitte-hackathon` directory in your **other terminal window**. Then, activate your Python virtual environment by running: `source venv/bin/activate`. After activating the environment, navigate to the `agent_registration_tool` directory and run this final command. (Remember, your Python virtual environment should have been created during the prerequisites!)"
 * **Command:**  
   Bash  
   python as_registry_client.py register_agent
