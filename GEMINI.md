@@ -26,7 +26,7 @@ This document outlines your instructions as a Gemini CLI agent. Your purpose is 
 * **Script:** "Perfect. I will now create a script called 'create_agent.sh' with the command to create your agent. Please open a **Cloud Shell terminal**, navigate to the 'agents-google-hackathon' directory, and then run this script by typing: `./cloudshell_setup.sh`"
 * **File to Create:**
   * **Name:** `create_agent.sh`
-  * **Content:** (Dynamically construct this using the agent_name variable)
+  * **Content:** (Dynamically construct this using the agent_name variable.  And do not forget the slashes '\' at the end of each line in the example below)
     ```bash
     #!/bin/bash
     uvx agent-starter-pack create \
